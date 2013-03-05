@@ -19,6 +19,7 @@
 #define S2 (1<<22)
 #define S3 (1<<19)
 #define S4 (1<<21)
+#define LED7 (1<<26)
 
 #define S1_ON (LPC_GPIO1 -> FIOCLR = S1)
 #define S2_ON (LPC_GPIO1 -> FIOCLR = S2)
@@ -41,6 +42,7 @@ const unsigned char SCIOut0[] = "HI";
 
 volatile unsigned char CNTRL = 0;
 volatile unsigned int freq = 25000000;
+
 /*
 void Init_MCPWM(void)
 {
@@ -64,6 +66,7 @@ void MCPWM_IRQHandler(void)
 	}
 }
 */
+
 void Init_RIT(void)
 {
 	LPC_SC -> PCONP |= (1<<16);
@@ -74,6 +77,7 @@ void Init_RIT(void)
 
 void RIT_IRQHandler(void)
 {
+	LPC_GPIO1 -> FIOPIN ^= LED7;
 	if(CNTRL == 0)
 	{
 		S3_OFF; S4_OFF;
@@ -106,6 +110,9 @@ void switches(void)
 
 int main(void)
 {
+	LPC_GPIO1 -> FIODIR |= LED7;
+	LPC_GPIO1 -> FIOPIN &= LED7;
+
 	unsigned int i = 0;
 	lcd_init();
 	fillScreen(0x001F); 					//fillscreen with blue color
