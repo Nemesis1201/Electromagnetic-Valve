@@ -1,0 +1,62 @@
+
+**** Build of configuration Debug for project Lab3 ****
+
+make all 
+Building file: ../src/cr_startup_lpc176x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc176x.d" -MT"src/cr_startup_lpc176x.d" -o"src/cr_startup_lpc176x.o" "../src/cr_startup_lpc176x.c"
+Finished building: ../src/cr_startup_lpc176x.c
+ 
+Building file: ../src/lcd.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/lcd.d" -MT"src/lcd.d" -o"src/lcd.o" "../src/lcd.c"
+Finished building: ../src/lcd.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.d" -o"src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:82:2: warning: passing argument 3 of 'drawString' discards qualifiers from pointer target type
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'const unsigned char *'
+../src/main.c:85:2: warning: passing argument 3 of 'drawString' discards qualifiers from pointer target type
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'const unsigned char *'
+../src/main.c:88:2: warning: passing argument 3 of 'drawString' discards qualifiers from pointer target type
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'const unsigned char *'
+../src/main.c:111:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+c:\nxp\lpcxpresso_4.3.0_1023\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/stdio.h:151:12: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/main.c:112:3: warning: pointer targets in passing argument 3 of 'drawString' differ in signedness
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'unsigned char *'
+../src/main.c:113:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+c:\nxp\lpcxpresso_4.3.0_1023\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/stdio.h:151:12: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/main.c:114:3: warning: pointer targets in passing argument 3 of 'drawString' differ in signedness
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'unsigned char *'
+../src/main.c:117:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+c:\nxp\lpcxpresso_4.3.0_1023\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/stdio.h:151:12: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/main.c:118:3: warning: pointer targets in passing argument 3 of 'drawString' differ in signedness
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'unsigned char *'
+../src/main.c:119:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+c:\nxp\lpcxpresso_4.3.0_1023\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/stdio.h:151:12: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/main.c:120:3: warning: pointer targets in passing argument 3 of 'drawString' differ in signedness
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'unsigned char *'
+../src/main.c:123:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+c:\nxp\lpcxpresso_4.3.0_1023\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/stdio.h:151:12: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/main.c:124:3: warning: pointer targets in passing argument 3 of 'drawString' differ in signedness
+../src/lcd.h:74:13: note: expected 'char *' but argument is of type 'unsigned char *'
+Finished building: ../src/main.c
+ 
+Building file: ../src/ssp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/ssp.d" -MT"src/ssp.d" -o"src/ssp.o" "../src/ssp.c"
+Finished building: ../src/ssp.c
+ 
+Building target: Lab3.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="Lab3.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Lab3_Debug.ld" -o"Lab3.axf"  ./src/cr_startup_lpc176x.o ./src/lcd.o ./src/main.o ./src/ssp.o   -lCMSISv2p00_LPC17xx
+Finished building target: Lab3.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Lab3.axf"; # arm-none-eabi-objcopy -O binary "Lab3.axf" "Lab3.bin" ; checksum -p LPC1769 -d "Lab3.bin";
+   text	   data	    bss	    dec	    hex	filename
+  14592	      0	    360	  14952	   3a68	Lab3.axf
+ 

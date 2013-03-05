@@ -1,0 +1,127 @@
+/*
+===============================================================================
+ Name        : main.c
+ Author      : Evan Pederson
+ Version     : 1.00.000
+ Copyright   : Copyright (C) 
+ Description : Main definition for valve controller.
+===============================================================================
+*/
+
+#include "LPC17xx.h"
+#include "lcd.h"
+#include "stdio.h"
+#include "BUTTONS.h"
+#include "uart.h"
+#include "PWC.h"
+
+#define S1 (1<<20)
+#define S2 (1<<22)
+#define S3 (1<<19)
+#define S4 (1<<21)
+
+#define S1_ON (LPC_GPIO1 -> FIOCLR = S1)
+#define S2_ON (LPC_GPIO1 -> FIOCLR = S2)
+#define S3_ON (LPC_GPIO1 -> FIOCLR = S3)
+#define S4_ON (LPC_GPIO1 -> FIOCLR = S4)
+
+#define S1_OFF (LPC_GPIO1 -> FIOSET = S1)
+#define S2_OFF (LPC_GPIO1 -> FIOSET = S2)
+#define S3_OFF (LPC_GPIO1 -> FIOSET = S3)
+#define S4_OFF (LPC_GPIO1 -> FIOSET = S4)
+
+#define allSwitches 7864320
+
+//Globally define LCD Messages
+const unsigned char DIVIDER[25] = "-------------------------";
+const unsigned char MSG0[17] = "Valve Controller";
+
+//Globally define serial messages
+const unsigned char SCIOut0[] = "HI";
+
+volatile unsigned char CNTRL = 0;
+volatile unsigned int freq = 25000000;
+/*
+void Init_MCPWM(void)
+{
+	LPC_SC -> PCONP |= (1<<17);
+	LPC_SC -> PCLKSEL1 |= (1<<31);
+	NVIC_EnableIRQ(MCPWM_IRQn);
+}
+
+void MCPWM_IRQHandler(void)
+{
+	if(CNTRL == 0)
+	{
+		LPC_GPIO1 -> FIOPIN = ~(S1|S2);
+		CNTRL++;
+	}
+	if(CNTRL == 1)
+	{
+		LPC_GPIO1 -> FIOPIN = ~(S1|S2);
+		LPC_GPIO1 -> FIOPIN = ~(S3|S4);
+		CNTRL = 0;
+	}
+}
+*/
+void Init_RIT(void)
+{
+	LPC_SC -> PCONP |= (1<<16);
+	LPC_RIT -> RICTRL |= (0x3);			//setup auto RST & INT CLR
+	LPC_RIT -> RICOMPVAL = 25000000;	//Interrupt every 52.083us
+	NVIC_EnableIRQ(RIT_IRQn);			//Enable RIT interrupt
+}
+
+void RIT_IRQHandler(void)
+{
+	if(CNTRL == 0)
+	{
+		S3_OFF; S4_OFF;
+		S1_ON; S2_ON;				//LPC_GPIO1 -> FIOPIN ^= (S1|S2);
+	}
+
+	if(CNTRL == 1)
+	{
+		S1_OFF; S2_OFF;				//LPC_GPIO1 -> FIOPIN ^= (S1|S2);
+		S3_ON; S4_ON;				//LPC_GPIO1 -> FIOPIN ^= (S3|S4);
+	}
+
+	if(CNTRL == 2)
+	{
+		CNTRL = 0;
+		S1_ON; S2_ON;
+		S3_OFF; S4_OFF;
+	}
+
+	CNTRL++;
+
+	LPC_RIT -> RICTRL |= (1<<0);	//Clear RIT flag
+}
+
+void switches(void)
+{
+	LPC_GPIO1 -> FIODIR |= allSwitches;
+	LPC_GPIO1 -> FIOPIN |= allSwitches;
+}
+
+int main(void)
+{
+	lcd_init();
+	fillScreen(0x001F); 					//fillscreen with blue color
+	setBackgroundColor16(0x001F); 			//set background with blue color
+
+	setColor16(ST7735_16_BLACK);
+	drawString(10,10,(char*)MSG0);
+	drawString(10,20,(char*)DIVIDER);
+
+	switches();
+
+	Init_RIT();
+
+	while(1)
+	{
+		if(P02)	LPC_RIT -> RICOMPVAL = 25000000;
+		if(P03)	LPC_RIT -> RICOMPVAL = 2500000;
+	}
+	return 1;
+}

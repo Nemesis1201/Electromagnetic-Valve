@@ -1,0 +1,10 @@
+
+**** Build of configuration Debug for project uart ****
+
+make all 
+Building file: ../src/cr_startup_lpc17.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -DDEBUG -D__CODE_RED -D__REDLIB__ -I"C:\Users\Evan\Desktop\Elctromagnetic Valve\uart\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc17.d" -MT"src/cr_startup_lpc17.d" -o"src/cr_startup_lpc17.o" "../src/cr_startup_lpc17.c"
+../src/cr_startup_lpc17.c:49:28: fatal error: system_LPC17xx.h: No such file or directory
+compilation terminated.
+make: *** [src/cr_startup_lpc17.o] Error 1

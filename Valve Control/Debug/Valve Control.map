@@ -1,0 +1,530 @@
+Archive member included because of file (symbol)
+
+C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                              ./src/cr_startup_lpc176x.o (SystemInit)
+c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc176x.o (__main)
+c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+                              C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+
+Allocating common symbols
+Common symbol       size              file
+
+UART1Buffer         0x40              ./src/uart.o
+UART3Status         0x4               ./src/uart.o
+UART0Buffer         0x40              ./src/uart.o
+UART1Status         0x4               ./src/uart.o
+UART3Buffer         0x40              ./src/uart.o
+UART0Status         0x4               ./src/uart.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./src/lcd.o
+ .data          0x00000000        0x0 ./src/lcd.o
+ .bss           0x00000000        0x0 ./src/lcd.o
+ .text.Output_Pixel
+                0x00000000       0x64 ./src/lcd.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .rodata.SCIOut0
+                0x00000000        0x4 ./src/main.o
+ .data.freq     0x00000000        0x4 ./src/main.o
+ .text          0x00000000        0x0 ./src/ssp.o
+ .data          0x00000000        0x0 ./src/ssp.o
+ .bss           0x00000000        0x0 ./src/ssp.o
+ .text          0x00000000        0x0 ./src/uart.o
+ .data          0x00000000        0x0 ./src/uart.o
+ .bss           0x00000000        0x0 ./src/uart.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 ./src/uart.o
+ .text.UARTInit
+                0x00000000      0x374 ./src/uart.o
+ .text.UARTSend
+                0x00000000      0x10c ./src/uart.o
+ .text          0x00000000        0x0 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x0 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf0 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data.SystemCoreClock
+                0x00000000        0x4 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idiv
+                0x00000000       0x10 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivmod
+                0x00000000       0x16 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uidiv
+                0x00000000       0x10 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uidivmod
+                0x00000000       0x16 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x26 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uldivmod
+                0x00000000      0x174 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x00000000        0x2 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc176x.o
+LOAD ./src/lcd.o
+LOAD ./src/main.o
+LOAD ./src/ssp.o
+LOAD ./src/uart.o
+LOAD C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a
+LOAD c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000     0x1270
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x1270 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x1270 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000e8        0x4 LONG 0xe0 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4       0x78 ./src/cr_startup_lpc176x.o
+                0x000000f4                NMI_Handler
+                0x000000f6                HardFault_Handler
+                0x000000f8                MemManage_Handler
+                0x000000fa                BusFault_Handler
+                0x000000fc                UsageFault_Handler
+                0x000000fe                SVC_Handler
+                0x00000100                DebugMon_Handler
+                0x00000102                PendSV_Handler
+                0x00000104                SysTick_Handler
+                0x00000106                data_init
+                0x00000118                bss_init
+                0x00000128                ResetISR
+                0x00000168                CANActivity_IRQHandler
+                0x00000168                TIMER3_IRQHandler
+                0x00000168                EINT3_IRQHandler
+                0x00000168                EINT2_IRQHandler
+                0x00000168                IntDefaultHandler
+                0x00000168                PLL0_IRQHandler
+                0x00000168                CAN_IRQHandler
+                0x00000168                PLL1_IRQHandler
+                0x00000168                I2C1_IRQHandler
+                0x00000168                I2S_IRQHandler
+                0x00000168                I2C2_IRQHandler
+                0x00000168                RTC_IRQHandler
+                0x00000168                TIMER0_IRQHandler
+                0x00000168                SPI_IRQHandler
+                0x00000168                PWM1_IRQHandler
+                0x00000168                EINT1_IRQHandler
+                0x00000168                TIMER1_IRQHandler
+                0x00000168                UART2_IRQHandler
+                0x00000168                ADC_IRQHandler
+                0x00000168                SSP1_IRQHandler
+                0x00000168                USB_IRQHandler
+                0x00000168                BOD_IRQHandler
+                0x00000168                USBActivity_IRQHandler
+                0x00000168                WDT_IRQHandler
+                0x00000168                I2C0_IRQHandler
+                0x00000168                QEI_IRQHandler
+                0x00000168                EINT0_IRQHandler
+                0x00000168                SSP0_IRQHandler
+                0x00000168                DMA_IRQHandler
+                0x00000168                TIMER2_IRQHandler
+                0x00000168                MCPWM_IRQHandler
+                0x00000168                ENET_IRQHandler
+ *(.text*)
+ .text.setColor16
+                0x0000016c       0x38 ./src/lcd.o
+                0x0000016c                setColor16
+ .text.setBackgroundColor16
+                0x000001a4       0x38 ./src/lcd.o
+                0x000001a4                setBackgroundColor16
+ .text.lcd_send
+                0x000001dc       0x5c ./src/lcd.o
+                0x000001dc                lcd_send
+ .text.lcd_command_send
+                0x00000238       0x20 ./src/lcd.o
+                0x00000238                lcd_command_send
+ .text.lcd_data_send
+                0x00000258       0x20 ./src/lcd.o
+                0x00000258                lcd_data_send
+ .text.writeConfig
+                0x00000278       0x4c ./src/lcd.o
+                0x00000278                writeConfig
+ .text.writeConfigWithDelay
+                0x000002c4       0x28 ./src/lcd.o
+                0x000002c4                writeConfigWithDelay
+ .text.lcd_init
+                0x000002ec      0x170 ./src/lcd.o
+                0x000002ec                lcd_init
+ .text.setAddr  0x0000045c       0x70 ./src/lcd.o
+                0x0000045c                setAddr
+ .text.drawChar
+                0x000004cc       0xe0 ./src/lcd.o
+                0x000004cc                drawChar
+ .text.drawString
+                0x000005ac       0x48 ./src/lcd.o
+                0x000005ac                drawString
+ .text.fillScreen
+                0x000005f4       0x90 ./src/lcd.o
+                0x000005f4                fillScreen
+ .text.delay_ms
+                0x00000684       0x38 ./src/lcd.o
+                0x00000684                delay_ms
+ .text.NVIC_EnableIRQ
+                0x000006bc       0x38 ./src/main.o
+ .text.Init_RIT
+                0x000006f4       0x58 ./src/main.o
+                0x000006f4                Init_RIT
+ .text.RIT_IRQHandler
+                0x0000074c      0x128 ./src/main.o
+                0x0000074c                RIT_IRQHandler
+ .text.switches
+                0x00000874       0x3c ./src/main.o
+                0x00000874                switches
+ .text.main     0x000008b0       0xe8 ./src/main.o
+                0x000008b0                main
+ .text.SSP1Init
+                0x00000998       0xc4 ./src/ssp.o
+                0x00000998                SSP1Init
+ .text.SSP1Send
+                0x00000a5c       0x7c ./src/ssp.o
+                0x00000a5c                SSP1Send
+ .text.UART0_IRQHandler
+                0x00000ad8      0x17c ./src/uart.o
+                0x00000ad8                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x00000c54      0x17c ./src/uart.o
+                0x00000c54                UART1_IRQHandler
+ .text.UART3_IRQHandler
+                0x00000dd0      0x17c ./src/uart.o
+                0x00000dd0                UART3_IRQHandler
+ .text.SystemInit
+                0x00000f4c       0xe4 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000f4c                SystemInit
+ .text.__weak_main
+                0x00001030        0x4 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+                0x00001030                __weak_main
+                0x00001030                __main
+ *(.rodata .rodata.*)
+ .rodata.font   0x00001034      0x1e0 ./src/lcd.o
+                0x00001034                font
+ .rodata.frmctr
+                0x00001214        0x8 ./src/lcd.o
+                0x00001214                frmctr
+ .rodata.invctr
+                0x0000121c        0x4 ./src/lcd.o
+                0x0000121c                invctr
+ .rodata.pwctr1
+                0x00001220        0x4 ./src/lcd.o
+                0x00001220                pwctr1
+ .rodata.pwctr2
+                0x00001224        0x4 ./src/lcd.o
+                0x00001224                pwctr2
+ .rodata.pwctr3
+                0x00001228        0x4 ./src/lcd.o
+                0x00001228                pwctr3
+ .rodata.pwctr4
+                0x0000122c        0x4 ./src/lcd.o
+                0x0000122c                pwctr4
+ .rodata.pwctr5
+                0x00001230        0x4 ./src/lcd.o
+                0x00001230                pwctr5
+ .rodata.vmctr1
+                0x00001234        0x4 ./src/lcd.o
+                0x00001234                vmctr1
+ .rodata.madctl
+                0x00001238        0x4 ./src/lcd.o
+                0x00001238                madctl
+ .rodata.colmod
+                0x0000123c        0x4 ./src/lcd.o
+                0x0000123c                colmod
+ .rodata.DIVIDER
+                0x00001240       0x1c ./src/main.o
+                0x00001240                DIVIDER
+ .rodata.MSG0   0x0000125c       0x14 ./src/main.o
+                0x0000125c                MSG0
+                0x00001270                . = ALIGN (0x4)
+
+.glue_7         0x00001270        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00001270        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00001270        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00001270        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001270                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00001270                __exidx_end = .
+                0x00001270                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00001270
+ FILL mask 0xff
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x00001270
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.UART0TxEmpty
+                0x10000000        0x1 ./src/uart.o
+                0x10000000                UART0TxEmpty
+ .data.UART1TxEmpty
+                0x10000001        0x1 ./src/uart.o
+                0x10000001                UART1TxEmpty
+ .data.UART3TxEmpty
+                0x10000002        0x1 ./src/uart.o
+                0x10000002                UART3TxEmpty
+                0x10000004                . = ALIGN (0x4)
+ *fill*         0x10000003        0x1 ff
+                0x10000004                _edata = .
+
+.bss_RAM2       0x2007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x10000004       0xe0
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.colorLowByte
+                0x10000004        0x1 ./src/lcd.o
+                0x10000004                colorLowByte
+ .bss.colorHighByte
+                0x10000005        0x1 ./src/lcd.o
+                0x10000005                colorHighByte
+ .bss.bgColorLowByte
+                0x10000006        0x1 ./src/lcd.o
+                0x10000006                bgColorLowByte
+ .bss.bgColorHighByte
+                0x10000007        0x1 ./src/lcd.o
+                0x10000007                bgColorHighByte
+ .bss.CNTRL     0x10000008        0x1 ./src/main.o
+                0x10000008                CNTRL
+ *fill*         0x10000009        0x3 00
+ .bss.UART0Count
+                0x1000000c        0x4 ./src/uart.o
+                0x1000000c                UART0Count
+ .bss.UART1Count
+                0x10000010        0x4 ./src/uart.o
+                0x10000010                UART1Count
+ .bss.UART3Count
+                0x10000014        0x4 ./src/uart.o
+                0x10000014                UART3Count
+ *(COMMON)
+ COMMON         0x10000018       0xcc ./src/uart.o
+                0x10000018                UART1Buffer
+                0x10000058                UART3Status
+                0x1000005c                UART0Buffer
+                0x1000009c                UART1Status
+                0x100000a0                UART3Buffer
+                0x100000e0                UART0Status
+                0x100000e4                . = ALIGN (0x4)
+                0x100000e4                _ebss = .
+                0x100000e4                PROVIDE (end, .)
+                0x100000e4                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(Valve Control.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000      0x7fb
+ .debug_abbrev  0x00000000      0x10f ./src/cr_startup_lpc176x.o
+ .debug_abbrev  0x0000010f      0x143 ./src/lcd.o
+ .debug_abbrev  0x00000252      0x19b ./src/main.o
+ .debug_abbrev  0x000003ed      0x14a ./src/ssp.o
+ .debug_abbrev  0x00000537      0x1e1 ./src/uart.o
+ .debug_abbrev  0x00000718       0xe3 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_info     0x00000000     0x33fe
+ .debug_info    0x00000000      0x2e3 ./src/cr_startup_lpc176x.o
+ .debug_info    0x000002e3      0x9df ./src/lcd.o
+ .debug_info    0x00000cc2      0xa8e ./src/main.o
+ .debug_info    0x00001750      0x912 ./src/ssp.o
+ .debug_info    0x00002062     0x100d ./src/uart.o
+ .debug_info    0x0000306f      0x38f C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_line     0x00000000     0x1a0b
+ .debug_line    0x00000000      0x3cf ./src/cr_startup_lpc176x.o
+ .debug_line    0x000003cf      0x528 ./src/lcd.o
+ .debug_line    0x000008f7      0x46a ./src/main.o
+ .debug_line    0x00000d61      0x3eb ./src/ssp.o
+ .debug_line    0x0000114c      0x4e7 ./src/uart.o
+ .debug_line    0x00001633      0x3d8 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_macinfo  0x00000000    0x2a6ff
+ .debug_macinfo
+                0x00000000     0x313f ./src/cr_startup_lpc176x.o
+ .debug_macinfo
+                0x0000313f     0x8105 ./src/lcd.o
+ .debug_macinfo
+                0x0000b244     0x87a3 ./src/main.o
+ .debug_macinfo
+                0x000139e7     0x7c5e ./src/ssp.o
+ .debug_macinfo
+                0x0001b645     0x778f ./src/uart.o
+ .debug_macinfo
+                0x00022dd4     0x792b C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_loc      0x00000000      0x790
+ .debug_loc     0x00000000      0x1b8 ./src/cr_startup_lpc176x.o
+ .debug_loc     0x000001b8      0x304 ./src/lcd.o
+ .debug_loc     0x000004bc       0xf4 ./src/main.o
+ .debug_loc     0x000005b0       0x70 ./src/ssp.o
+ .debug_loc     0x00000620      0x150 ./src/uart.o
+ .debug_loc     0x00000770       0x20 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_pubnames
+                0x00000000      0x4f1
+ .debug_pubnames
+                0x00000000      0x115 ./src/cr_startup_lpc176x.o
+ .debug_pubnames
+                0x00000115      0x1ba ./src/lcd.o
+ .debug_pubnames
+                0x000002cf       0x7c ./src/main.o
+ .debug_pubnames
+                0x0000034b       0x2c ./src/ssp.o
+ .debug_pubnames
+                0x00000377      0x12b ./src/uart.o
+ .debug_pubnames
+                0x000004a2       0x4f C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_pubtypes
+                0x00000000      0x2ac
+ .debug_pubtypes
+                0x00000000       0x12 ./src/cr_startup_lpc176x.o
+ .debug_pubtypes
+                0x00000012       0x59 ./src/lcd.o
+ .debug_pubtypes
+                0x0000006b       0xa5 ./src/main.o
+ .debug_pubtypes
+                0x00000110       0x97 ./src/ssp.o
+ .debug_pubtypes
+                0x000001a7       0xc7 ./src/uart.o
+ .debug_pubtypes
+                0x0000026e       0x3e C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_aranges  0x00000000      0x1e0
+ .debug_aranges
+                0x00000000       0x80 ./src/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000080       0x88 ./src/lcd.o
+ .debug_aranges
+                0x00000108       0x40 ./src/main.o
+ .debug_aranges
+                0x00000148       0x28 ./src/ssp.o
+ .debug_aranges
+                0x00000170       0x48 ./src/uart.o
+ .debug_aranges
+                0x000001b8       0x28 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_ranges   0x00000000      0x180
+ .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc176x.o
+ .debug_ranges  0x00000070       0x78 ./src/lcd.o
+ .debug_ranges  0x000000e8       0x30 ./src/main.o
+ .debug_ranges  0x00000118       0x18 ./src/ssp.o
+ .debug_ranges  0x00000130       0x38 ./src/uart.o
+ .debug_ranges  0x00000168       0x18 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_str      0x00000000      0xca7
+ .debug_str     0x00000000      0x219 ./src/cr_startup_lpc176x.o
+                                0x241 (size before relaxing)
+ .debug_str     0x00000219      0x2fb ./src/lcd.o
+                                0x3d6 (size before relaxing)
+ .debug_str     0x00000514      0x401 ./src/main.o
+                                0x640 (size before relaxing)
+ .debug_str     0x00000915      0x15b ./src/ssp.o
+                                0x4c3 (size before relaxing)
+ .debug_str     0x00000a70      0x1ba ./src/uart.o
+                                0x740 (size before relaxing)
+ .debug_str     0x00000c2a       0x7d C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                                0x27a (size before relaxing)
+
+.comment        0x00000000       0x2a
+ .comment       0x00000000       0x2a ./src/cr_startup_lpc176x.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b ./src/lcd.o
+ .comment       0x00000000       0x2b ./src/main.o
+ .comment       0x00000000       0x2b ./src/ssp.o
+ .comment       0x00000000       0x2b ./src/uart.o
+ .comment       0x00000000       0x2b C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./src/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/lcd.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/main.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/ssp.o
+ .ARM.attributes
+                0x000000c4       0x31 ./src/uart.o
+ .ARM.attributes
+                0x000000f5       0x31 C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x00000126       0x31 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000157       0x21 c:/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
+
+.debug_frame    0x00000000      0x488
+ .debug_frame   0x00000000       0xf0 ./src/cr_startup_lpc176x.o
+ .debug_frame   0x000000f0      0x1c0 ./src/lcd.o
+ .debug_frame   0x000002b0       0x98 ./src/main.o
+ .debug_frame   0x00000348       0x48 ./src/ssp.o
+ .debug_frame   0x00000390       0xbc ./src/uart.o
+ .debug_frame   0x0000044c       0x3c C:\Users\Evan\Desktop\Elctromagnetic Valve\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
